@@ -1,0 +1,55 @@
+{
+  "format": "ledplanner-notes",
+  "notes": [
+    {
+      "version": "2.10.0",
+      "date": "2026-11-05",
+      "title": "Actualizaciones automáticas",
+      "items": [
+        "Ayuda > Buscar actualizaciones: comprueba si hay una versión nueva y, con licencia activa, la descarga y la instala.",
+        "Al iniciar, la app avisa si hay una versión nueva (se puede desactivar en Ajustes > Preferencias > Aplicación y datos).",
+        "Ayuda > Novedades: esta página, con los cambios de cada versión. Se abre sola la primera vez que arrancas una versión nueva.",
+        "El instalador descargado se comprueba con su huella SHA-512 antes de ejecutarlo."
+      ]
+    },
+    {
+      "version": "2.9.0",
+      "date": "2026-11-05",
+      "title": "Profundidad por zona",
+      "items": [
+        "Cada zona puede tener su propia profundidad interior (vacío = la general del cartel).",
+        "El render, la luminancia, la uniformidad, la Vista 3D y el informe usan la profundidad de cada zona."
+      ]
+    },
+    {
+      "version": "2.8.0",
+      "date": "2026-11-05",
+      "title": "Vista 3D encendida y colores de marca",
+      "items": [
+        "Vista 3D por piezas: se ve la forma del cartel aunque aún no tenga módulos.",
+        "Cartel encendido con la luz calculada y regulador de intensidad (0-100 %), con la luminancia de cada zona.",
+        "Color de la cara por zona con paleta o código HTML; reduce la luz en los cálculos según el color y aparece en el informe."
+      ]
+    },
+    {
+      "version": "2.7.0",
+      "date": "2026-11-05",
+      "title": "Folio en blanco",
+      "items": [
+        "Nuevo proyecto abre un folio en blanco a escala real.",
+        "Cada forma dibujada es una zona; una forma dentro de otra es un hueco. Mover una pieza mueve sus módulos.",
+        "Imagen de fondo para calcar, puesta a escala con Calibrar. Los DXF/SVG se añaden al folio abierto."
+      ]
+    },
+    {
+      "version": "2.6.0",
+      "date": "2026-11-05",
+      "title": "Empalmes y selección",
+      "items": [
+        "Cableado: empalmes (derivaciones) desde un módulo, con su punto en el plano y en el informe.",
+        "Selección de varias zonas a la vez; Seleccionar es la herramienta por defecto.",
+        "Títulos en la barra de herramientas, coordenadas del cartel y módulo más cercano en el plano."
+      ]
+    }
+  ]
+}
