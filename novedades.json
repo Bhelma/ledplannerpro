@@ -2,6 +2,15 @@
   "format": "ledplanner-notes",
   "notes": [
     {
+      "version": "2.11.0",
+      "date": "2026-11-05",
+      "title": "Paletas ajustables y más legibles",
+      "items": [
+        "Las paletas de los dos lados (módulos y zonas, y Propiedades) se pueden ampliar o reducir arrastrando su borde interior. Doble clic en el borde: ancho normal. El ancho se recuerda al volver a abrir la app.",
+        "En las dos paletas, los valores y las casillas tienen ya el mismo tamaño de letra que el nombre de cada dato (antes había textos de 9, 12 y 13 puntos mezclados)."
+      ]
+    },
+    {
       "version": "2.10.0",
       "date": "2026-11-05",
       "title": "Actualizaciones automáticas",
