@@ -7,8 +7,9 @@
   function fecha(d){try{return new Date(d).toLocaleDateString('es-ES',{day:'numeric',month:'long',year:'numeric'});}catch(e){return d;}}
 
   // Descarga: antes de descargar se pide una ficha (nombre, empresa, email) que llega por email a
-  // soporte a traves de FormSubmit. La app no pasa por aqui: se actualiza desde la publicacion de GitHub.
-  var AVISO='https://formsubmit.co/ajax/josecafele@yahoo.es';
+  // soporte a traves de un Google Apps Script (que ademas la apunta en una hoja de calculo).
+  // La app no pasa por aqui: se actualiza desde la publicacion de GitHub.
+  var AVISO='https://script.google.com/macros/s/AKfycbwPWy8s55j5UGJnBLorK3uxNiCKycw2XBzIrTO0huzAiQAEQT3LsQm7M2CFNJyGzeA/exec';
   var exeUrl='https://github.com/'+REPO+'/releases/latest',exeVer='';
   var dl=document.getElementById('dl'),ver=document.getElementById('ver');
   if(dl){
@@ -59,10 +60,9 @@
         bt.disabled=false;
       }
       if(v('_honey')){bajar();return;}
-      fetch(AVISO,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({
-        _subject:'Descarga de Led Planner PRO · '+v('empresa'),_template:'table',_captcha:'false',
-        'Nombre':v('nombre'),'Empresa':v('empresa'),email:v('email'),'Versión':exeVer||'última',
-        'Fecha':new Date().toLocaleString('es-ES'),'Página':location.href.split('#')[0]
+      // Apps Script no admite CORS: envio "no-cors" en texto plano (sin preflight); la respuesta no se lee
+      fetch(AVISO,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({
+        nombre:v('nombre'),empresa:v('empresa'),email:v('email'),version:exeVer,pagina:location.href.split('#')[0]
       })}).catch(function(){}).then(bajar);
       setTimeout(bajar,6000); // si el aviso tarda, la descarga no espera
     });
