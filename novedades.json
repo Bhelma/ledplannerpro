@@ -2,6 +2,14 @@
   "format": "ledplanner-notes",
   "notes": [
     {
+      "version": "2.13.1",
+      "date": "2026-11-06",
+      "title": "Plantilla del informe con licencia",
+      "items": [
+        "Editar la plantilla del informe necesita licencia activa, como el informe, guardar e imprimir. Las anotaciones sobre el plano se pueden seguir probando en modo demostración."
+      ]
+    },
+    {
       "version": "2.13.0",
       "date": "2026-11-06",
       "title": "Informe a tu medida, observaciones y anotaciones en el plano",
