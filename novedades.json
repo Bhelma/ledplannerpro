@@ -2,6 +2,18 @@
   "format": "ledplanner-notes",
   "notes": [
     {
+      "version": "2.13.0",
+      "date": "2026-11-06",
+      "title": "Informe a tu medida, observaciones y anotaciones en el plano",
+      "items": [
+        "Plantilla del informe (Ajustes > Plantilla del informe): ordena las secciones arrastrándolas, ocúltalas, cámbiales el título y añade tus propios textos (presentación, condiciones, garantía...) con datos automáticos como {proyecto}, {cliente} o {fecha}. También portada, color de acento y tipo de letra. Puedes tener varias plantillas y pasarlas a otro equipo.",
+        "Vista previa del informe tal como sale en papel, con botones «+ Observación» en cada sección y en cada zona, observaciones generales y datos del cliente y de la obra. Se guardan con el proyecto.",
+        "Nuevo botón «Guardar PDF»: el informe en PDF A4 directamente, sin pasar por el diálogo de impresión.",
+        "Anotaciones sobre el plano: flecha con texto, texto, círculo de detalle, recuadro y cota con la medida en cm. Se mueven, se editan con doble clic, salen en el plano del informe y en la capa ANOTACIONES del DXF.",
+        "Ayuda: cómo pasar el DXF a DWG en AutoCAD y qué hacer si avisa de que es de solo lectura."
+      ]
+    },
+    {
       "version": "2.12.0",
       "date": "2026-11-06",
       "title": "Exportar a AutoCAD (DXF)",
