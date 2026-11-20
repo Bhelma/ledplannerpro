@@ -2,6 +2,17 @@
   "format": "ledplanner-notes",
   "notes": [
     {
+      "version": "2.14.0",
+      "date": "2026-11-19",
+      "title": "Fotometría y forma real de los módulos (LDT / IES y DXF)",
+      "items": [
+        "Cada módulo del catálogo puede llevar el archivo fotométrico del fabricante (LDT EULUMDAT o IES). Al cargarlo se rellenan solos los lúmenes, la potencia y el ángulo de emisión, y se muestra el diagrama polar.",
+        "El render, la luminancia, la uniformidad, la Vista 3D encendida y el informe usan la curva real de intensidad del módulo en lugar de la aproximación por ángulo de emisión.",
+        "Cada módulo puede llevar también su DXF: el plano, el informe, la Vista 3D y el DXF exportado dibujan su contorno real, el largo y el ancho salen del dibujo y el render reparte la luz entre sus LEDs en su posición real. Los cables se descartan solos y los LEDs se detectan por las lentes o por una capa llamada LED.",
+        "Es opcional: los módulos sin archivo se calculan exactamente igual que antes, y «Quitar archivo» / «Quitar DXF» vuelven al cálculo manual. El informe indica qué fotometría se ha usado."
+      ]
+    },
+    {
       "version": "2.13.1",
       "date": "2026-11-06",
       "title": "Plantilla del informe con licencia",
