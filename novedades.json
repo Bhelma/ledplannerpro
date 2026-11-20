@@ -2,6 +2,30 @@
   "format": "ledplanner-notes",
   "notes": [
     {
+      "version": "2.16.0",
+      "date": "2026-11-20",
+      "title": "Tira en los laterales, rellenos editables e imagen del cliente encendida",
+      "items": [
+        "Rellenar con tira tiene una tercera forma: «Laterales (pared interior)». La tira va pegada al canto de la letra o caja, a lo largo de todo el contorno, con la luz hacia el centro, en una o varias líneas a la altura que indiques (también en las paredes de los huecos).",
+        "Los rellenos (líneas, contorno y laterales) se pueden cambiar después: clic en un tramo y, en Propiedades > Selección, apartado Relleno, cambia la separación, la distancia al borde, las vueltas, las líneas o sus alturas; se vuelve a generar todo el grupo.",
+        "Imagen en la cara del cartel: importa la gráfica corporativa del cliente (Render > Imagen en la cara del cartel...) y ajústala en Propiedades. El render abre la vista encendida con la imagen iluminada, la Vista 3D la muestra apagada y encendida, y el informe incluye la imagen «Cómo queda encendido».",
+        "El informe detalla el montaje de la tira interior de cada zona (líneas, contorno o laterales con sus valores) con un esquema de la sección para las tiras laterales.",
+        "Perfiles para tira con varios difusores guardados; en cada tira se elige uno y se puede probar otra transmisión sin cambiar la ficha. Distancia al borde editable en la tira exterior."
+      ]
+    },
+    {
+      "version": "2.15.0",
+      "date": "2026-11-20",
+      "title": "Tira LED flexible e iluminación exterior con perfil",
+      "items": [
+        "Nuevo grupo «Tira LED» en la barra de herramientas: además de módulos, el cartel se puede iluminar con tira LED flexible. «Trazar tira» dibuja cualquier recta o quebrada y la longitud se ajusta sola al paso de corte de la tira.",
+        "«Rellenar con tira» llena las zonas con líneas paralelas (separación y margen) o siguiendo el contorno de la letra por dentro y/o por fuera a X cm del borde, con una o varias vueltas y también alrededor de los huecos.",
+        "«Tira exterior en perfil» para carteles sin hueco: tira dentro de un perfil delante del cartel, arriba y/o abajo. La separación y la inclinación se guardan en cada proyecto y se cambian en Propiedades, donde se ve al momento la iluminancia y la uniformidad de la cara.",
+        "Catálogo de tiras (Ajustes > Tiras LED) con su LDT obligatorio: la longitud del tramo medido se lee del propio archivo (cada fabricante usa una distinta) y con ella se calculan los lm/m y W/m. Catálogo de perfiles desde el DXF de la sección o como perfil en U con sus medidas, con difusor y precio por barra.",
+        "Las tiras se cablean, se reparten en fuentes y se calculan como los módulos: cable de puente entre tramos, aviso de longitud máxima alimentada desde un extremo, render, Vista 3D (con el perfil inclinado delante del cartel), informe con esquema lateral de cada tira exterior, lista de materiales (metros de tira, barras de perfil y tapas) y DXF con las capas TIRAS_LED y PERFILES."
+      ]
+    },
+    {
       "version": "2.14.0",
       "date": "2026-11-19",
       "title": "Fotometría y forma real de los módulos (LDT / IES y DXF)",
