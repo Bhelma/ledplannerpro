@@ -2,6 +2,21 @@
   "format": "ledplanner-notes",
   "notes": [
     {
+      "version": "2.18.0",
+      "date": "2026-11-23",
+      "title": "Dibujo preciso y edición de formas",
+      "items": [
+        "Clic derecho sobre una forma: Propiedades, editar vértices, convertir en polígono, duplicar, copiar y pegar, girar 90°, simetría, centrar en el folio, bloquear y borrar. Sobre un vértice: eliminarlo, redondear o achaflanar la esquina. Sobre un lado: insertar un vértice, curvarlo con un radio o escribir su longitud.",
+        "Ventana de Propiedades (doble clic en la forma): posición, ancho, alto, giro, radio de las esquinas y diámetro escritos con exactitud, con punto de referencia y opción de mantener la proporción. En los polígonos, tabla de vértices con X, Y, longitud de cada lado, ángulo de cada esquina y curva, todo editable (regla CAD: el lado anterior queda fijo y el siguiente gira o se alarga).",
+        "Cotas de cada lado y ángulos de cada esquina en el plano; doble clic sobre ellas para escribir el valor.",
+        "Medidas exactas mientras se dibuja: escribe un número para dar el primer punto, el ancho y el alto, el radio o la longitud y el ángulo de cada lado. Mayús: cuadrado, círculo o lados cada 15°.",
+        "Imanes a objetos (F3): vértices, puntos medios, centros y bordes de las formas y del folio, con guías de alineación. Tirador para girar y lados curvos con Alt + arrastrar.",
+        "Varias formas a la vez (Ctrl+clic o recuadro): mover, alinear, repartir, agrupar, duplicar (Ctrl+D) y borrar. Flechas para mover 1 mm (Mayús: 1 cm).",
+        "Medidas en cm con 2 decimales o en mm con 1. Los contornos calcados o importados se convierten en formas editables. También se dibujan formas sobre una imagen ya calibrada.",
+        "El DXF exportado lleva los lados curvos y las esquinas redondeadas como arcos reales."
+      ]
+    },
+    {
       "version": "2.17.0",
       "date": "2026-11-23",
       "title": "Tonalidad de la luz de módulos y tiras",
