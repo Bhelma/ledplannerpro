@@ -2,6 +2,17 @@
   "format": "ledplanner-notes",
   "notes": [
     {
+      "version": "2.17.0",
+      "date": "2026-11-23",
+      "title": "Tonalidad de la luz de módulos y tiras",
+      "items": [
+        "Cada módulo y cada tira del catálogo puede indicar la tonalidad de su luz: blanco con su temperatura de color (2700, 3000, 4000, 6500 K o la que escribas) o un color (rojo, verde, azul, ámbar...). Si el LDT trae la temperatura, se propone sola.",
+        "La vista encendida del render, la Vista 3D y la imagen «Cómo queda encendido» del informe muestran el cartel con la tonalidad real de la luz, combinada con el color de la cara o la imagen del cliente. Si se mezclan tonalidades, cada punto toma la mezcla de lo que le llega.",
+        "Los lux, la luminancia y la uniformidad no cambian. Aviso en el panel de la zona y en el informe si una misma pieza mezcla tonalidades distintas.",
+        "La tonalidad aparece en la lista de módulos y tiras, en las tablas del informe y en la lista de materiales."
+      ]
+    },
+    {
       "version": "2.16.0",
       "date": "2026-11-20",
       "title": "Tira en los laterales, rellenos editables e imagen del cliente encendida",
